@@ -1,0 +1,99 @@
+.Home {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 24px;
+  }
+  .music {
+    background-image: url("https://www.teahub.io/photos/full/1-12156_music-background-images-hd.png");
+    height: 1000px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+  }
+  .plane {
+    background-image: url("https://images.photowall.com/products/59504/mountain-view-1.jpg?h=699&q=85");
+    height: 1000px; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover; 
+  }
+  .backgroundImage {
+    background-image: url("https://hougumlaw.com/wp-content/uploads/2016/05/light-website-backgrounds-light-color-background-images-light-color-background-images-for-website-1024x640.jpg"); /* The image used */
+    height: 1000px; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .searchValue {
+    margin-top: 18px;
+  }
+  
+  .input {
+    padding: 6px 16px;
+    min-width: 200px;
+    max-width: 100vw;
+    font-size: 20px;
+  }
+  
+  .submit {
+    padding: 6px 16px;
+    font-size: 20px;
+    margin-left: 6px;
+    background-color: lightskyblue;
+    border: 2px solid black;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .submit:hover {
+    padding: 6px 16px;
+    font-size: 15px;
+    margin-left: 6px;
+    background-color: white;
+    border: 2px solid #02aff0;
+    border-radius: 4px;
+    color: #02aff0;
+    cursor: pointer;
+  }
+
+  .popout-container {
+    border-radius: 5px;
+    margin: auto;
+    width: 59%;
+    position: relative;
+    display: none;
+    z-index: 10;
+    transform: translate(-132px, -40px);
+  }
+  
+  .recipes {
+    margin-top: 24px;
+    display: grid;
+    grid-template-columns: 220px 220px;
+    align-items: baseline;
+  }
+  
+    
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.cardPicture {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.cardName {
+  max-width: 200px;
+  text-align: center;
+  margin: 12px 0px;
+}
